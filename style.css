@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0f0b1a;
+    color: white;
+    font-family:monospace;
+}
+
+.header{
+    text-align: center;
+    font-size: 4em;
+}
+
+.text{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.cont{
+    display: grid;
+    grid-row: repeat(2, auto);
+    grid-column: 100vw;
+    justify-items: center;
+}
+
+.display{
+    text-align: center;
+    font-size: 7em;
+    transition-duration:0.2s;
+}
+
+.counter{
+    width:fit-content;
+    padding:5px;
+    background-color: #2a1763;
+    border: 3px solid white;
+    border-radius: 20px;
+    font-size: 2.8em;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    user-select: none;
+}
+
+.counter:hover{
+    background-color: #180c39;
+    transform: translate(0px, 2px);
+}
+
+.counter:active{
+    background-color: #110534;
+    transform: translate(0px, 3px);
+}
